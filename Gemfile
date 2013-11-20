@@ -46,4 +46,10 @@ end
 
 gem 'syrup_form_object'
 gem "twitter-bootstrap-rails"
+group :development do
+  gem 'better_errors'
+  gem "binding_of_caller"
+  gem 'pry-rails'
+  gem 'awesome_print'
+end
 
