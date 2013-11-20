@@ -45,3 +45,5 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'syrup_form_object'
+gem "twitter-bootstrap-rails"
+
