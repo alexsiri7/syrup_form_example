@@ -1,9 +1,9 @@
-==Syrup::FormObject example
+#Syrup::FormObject example
 
 This is a rails application that works as an example of [Syrup::FormObject](https://github.com/alexsiri7/syrup_form_object). 
 The relevant forms are in app/forms.
 
-==Description
+##Description
 
 This is a simple application for creating Events. In order to keep it extra simple, the application
 has no user management. 
