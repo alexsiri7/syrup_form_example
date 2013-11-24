@@ -7,6 +7,8 @@ SyrupFormExamples::Application.routes.draw do
 
   resources :events
 
+  resources :event_details, only: [:edit, :update]
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

@@ -6,6 +6,8 @@
       <th>Name</th>
       <th>Start date</th>
       <th>End date</th>
+      <th>Price</th>
+      <th></th>
       <th></th>
       <th></th>
       <th></th>
@@ -18,8 +20,10 @@
         <td><%= event.name %></td>
         <td><%= event.start_date %></td>
         <td><%= event.end_date %></td>
+        <td><%= event.price %></td>
         <td><%= link_to 'Show', event %></td>
         <td><%= link_to 'Edit', edit_event_path(event) %></td>
+        <td><%= link_to 'Details', edit_event_detail_path(event) %></td>
         <td><%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>

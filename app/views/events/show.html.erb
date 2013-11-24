@@ -15,5 +15,11 @@
   <%= @event.end_date %>
 </p>
 
+<p>
+  <strong>Price:</strong>
+  <%= @event.price %>
+</p>
+
 <%= link_to 'Edit', edit_event_path(@event) %> |
+<%= link_to 'Edit details', edit_event_detail_path(@event) %> |
 <%= link_to 'Back', events_path %>
